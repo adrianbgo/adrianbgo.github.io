@@ -1,0 +1,17 @@
+@value colors: '../../colors.css';
+@value white,blue,black from colors;
+.SocialIcon {
+  background-color: black;
+  display: flex;
+  width: 4rem;
+  height: 4rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.Icon {
+  color: blue;
+  width: 2rem;
+  height: 2rem;
+}
